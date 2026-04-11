@@ -1,0 +1,11 @@
+# Ignore everything by default
+*
+
+# But keep directories traversable so nested exceptions can work
+!*/
+
+# Track MATLAB live script files
+!*.mlx
+
+# Keep this ignore file tracked
+!.gitignore
